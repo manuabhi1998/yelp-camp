@@ -32,7 +32,7 @@ app.locals.moment = moment; // create local variable available for the applicati
 
 //passport configuration
 app.use(session({
-  secret: process.env.SESSIONSECRET,
+  secret: 'abhimanyu',
   resave: false,
   saveUninitialized: false
 }));
